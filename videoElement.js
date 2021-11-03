@@ -23,9 +23,9 @@ function onResults(results) {
                      {color: '#00FF00', lineWidth: 5});
       drawLandmarks(canvasCtx, landmarks, {color: '#FF0000', lineWidth: 2});
       //moveCursor(landmarks);
-    //   document.getElementById("cursor").style.top = `${landmarks[7].y * 1000}px`;
-    //   document.getElementById("cursor").style.left = `${landmarks[7].x * 1000}px`;
-      document.getElementById("cursor").style.transform = "scale(5)";
+      document.getElementById("cursor").style.top = `${landmarks[7].y * 1000}px`;
+      document.getElementById("cursor").style.left = `${landmarks[7].x * 1000}px`;
+     //document.getElementById("cursor").style.transform = "scale(5)";
     }
   }
   canvasCtx.restore();
