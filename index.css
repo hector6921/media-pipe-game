@@ -2,5 +2,22 @@
     position: absolute;
     height: 100px;
     width: 100px;
+    z-index: 100;
     
+}
+/* .container{
+    visibility: hidden;
+} */
+#video
+{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.card{
+    /* position: absolute; */
+}
+#clickCheck{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
 }

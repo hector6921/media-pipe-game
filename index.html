@@ -11,10 +11,18 @@
 </head>
 
 <body>
-    <img src="knife.png" id="cursor">
+    <button id="button">Click</button>
+    <div id="clickCheck" onclick="changeColor()">Click Worked</div>
+    <img src="hand.png" id="cursor">
+    <img class="card" src="jack_clover.png" >
+    <img class="card" src="jack_hearts.png" >
+    <img class="card" src="queen_hearts.png" >
+    <img class="card" src="king_spades.png" >
+    <img class="card" src="ace_diamonds.png" >
+ 
   <div class="container">
-    <video class="input_video"></video>
-    <canvas class="output_canvas" width="1280px" height="720px"></canvas>
+    <video  style="transform: rotateY(180deg);display: none;" class="input_video"></video>
+    <canvas id="video" class="output_canvas" width="1280px" height="720px"></canvas>
   </div>
  
 </body>
